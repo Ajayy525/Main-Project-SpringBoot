@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 @RestController
-@RequestMapping("/api/orgn")
+@RequestMapping("/api/organisations")
 public class OrganisationControler {
     @Autowired
     private OrganisationService organisationService;
